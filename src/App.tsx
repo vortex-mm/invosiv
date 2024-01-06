@@ -20,6 +20,7 @@ function App() {
   console.log({state: state.value})
   return (
     <>
+      <h2>Hello Side Component</h2>
       <DependentDrawer
         slots={{
           firstContainer: <FirstContainer />,
