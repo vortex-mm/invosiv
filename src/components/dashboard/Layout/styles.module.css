@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.content {
+  transition: all 0.5s ease;
+  margin-top: 145px;
+  margin-right: 60px;
+  margin-bottom: 40px;
+  margin-left: 170px;
+}
+
+.active {
+  margin-left: 60px;
+}
+
+/* import { css } from "@/style/config";
+
+export const container = css({
+  position: "relative",
+});
+
+export const wrapper = css({
+  display: "flex",
+});
+
+export const content = css({
+  transition: "$fadeIn",
+  marginTop: 145,
+  marginRight: 60,
+  marginBottom: 40,
+  variants: {
+    active: {
+      true: {
+        marginLeft: 60,
+      },
+      false: {
+        marginLeft: 170,
+      },
+    },
+  },
+}); */

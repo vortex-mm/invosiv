@@ -1,0 +1,35 @@
+.background {
+  background: #fafafa;
+}
+
+.bg-acent {
+  background: #48b789;
+}
+
+.color-acent {
+  color: #48b789;
+}
+
+.ease {
+  transition: all 0.5s ease;
+}
+
+.heaven {
+  z-index: 100;
+}
+
+.sky {
+  z-index: 10;
+}
+
+.ground {
+  z-index: 0;
+}
+
+.under-ground {
+  z-index: -10;
+}
+
+.hell {
+  z-index: -100;
+}
