@@ -11,7 +11,7 @@ const Header = () => {
         <div className={styles.iconWrapper} onClick={() => dispatch(toggleAside())}>
           <ActivityIcon width={24} height={24} />
         </div>
-        <h1 className={styles.logoWrapper}>Laung Mel</h1>
+        <h1 className={styles.logoWrapper}>Invosiv POS</h1>
       </div>
       <div></div>
     </header>
