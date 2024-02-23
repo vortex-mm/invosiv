@@ -1,5 +1,9 @@
+import SchemaBuilder from '@/components/SchemaBuilder';
+
 const Home = () => {
-  return <h1>Home</h1>
+  return (
+    <SchemaBuilder />
+  );
 }
 
 export default Home

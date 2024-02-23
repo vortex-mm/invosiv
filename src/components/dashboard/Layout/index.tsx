@@ -4,8 +4,8 @@ import styles from './styles.module.css'
 import { mergeClassNames } from '@/helper/string'
 
 import DashboardProps from './type'
-import Nav from '@/components/dashboard/Nav'
-import Header from '@/components/dashboard/Header'
+import Nav from '@/components/Dashboard/Nav'
+import Header from '@/components/Dashboard/Header'
 
 const Layout = ({ children }: DashboardProps) => {
   const { active } = useSelector((state: RootState) => state.dashboard.aside)
