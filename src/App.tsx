@@ -1,5 +1,5 @@
 import '@/css/global.module.css'
-import '@mantine/core/styles.css';
+import '@mantine/core/styles.css'
 
 import routes from '@/routes'
 import { Route } from 'wouter'

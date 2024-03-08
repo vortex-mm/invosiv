@@ -11,7 +11,6 @@ const Layout = ({ children }: DashboardProps) => {
   const { active } = useSelector((state: RootState) => state.dashboard.aside)
   return (
     <div className={styles.container}>
-      {/* <Toast /> */}
       <Header />
       <Nav />
 

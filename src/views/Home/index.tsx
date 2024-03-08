@@ -1,8 +1,8 @@
-import SchemaBuilder from '@/components/SchemaBuilder';
+import EditSchemaFormList from '@/components/EditSchemaFormList';
 
 const Home = () => {
   return (
-    <SchemaBuilder />
+    <EditSchemaFormList />
   );
 }
 

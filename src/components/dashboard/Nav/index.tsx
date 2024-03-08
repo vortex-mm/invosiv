@@ -1,8 +1,6 @@
 import { useSelector } from 'react-redux'
-// import { container, item } from "./style";
 import { RootState } from '@/redux/store'
 import { MatchIcon } from '@/elements/Icon'
-// import { usePathname } from "next/navigation";
 import styles from './styles.module.css'
 import { mergeClassNames } from '@/helper/string'
 import { useLocation } from "wouter";

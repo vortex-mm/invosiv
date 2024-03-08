@@ -13,7 +13,6 @@ const SchemaBuilder = () => {
   })
 
   const SCHEMA_TYPES = ['String', 'Boolean']
-  console.log({ ...form.getInputProps('types') })
 
   return (
     <div className={styles.container}>
